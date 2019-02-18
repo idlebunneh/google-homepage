@@ -5,40 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="tab icon" href="https://www.google.ca/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>Google</title>
 </head>
 
 <body>
     <nav>
-        <ul>
-            <li>About</li>
-            <li>Store</li>
-        </ul>
-        <ul>
-            <li>Gmail</li>
-            <li>Images</li>
-        </ul>
-        <img src="images/apps-icon.gif" alt="">
-        <button>Sign In</button>
+        <div class="leftNav">
+            <a href="https://about.google/intl/en/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+            <a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a>
+        </div>
+        <div class="rightNav">
+            <a href="https://accounts.google.com/signin">Gmail</a>
+            <a href="https://www.google.com/imghp?hl=en&tab=wi">Images</a>
+            <img src="images/apps-icon.gif" alt="app icon">
+            <a href="https://accounts.google.com/signin"><button type="button">Sign In</button></a>
+        </div>
     </nav>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
-    <input type="text"></input><img src="http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="">
-    <button>Google Search</button>
-    <button>I'm Feeling Lucky</button>
-    <a href="https://www.google.com/url?q=https://artsandculture.google.com/project/black-history-and-culture%3Futm_source%3Dgoogle%26utm_medium%3Dhppromo%26utm_campaign%3Dbhm&source=hpp&id=19010866&ct=3&usg=AFQjCNFkXfyEE0DI9Zz1wNZ30Mki9PQ5yw&sa=X&ved=0ahUKEwj237mQkb_gAhVHNd8KHUP3DdkQ8IcBCAk">Discover stories of Black history through dance on Google Arts & Culture</a>
 
 
-    <footer>
-        <ul>
-            <li>Advertising</li>
-            <li>Business</li>
-        </ul>
-        <ul>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
-        </ul>
-    </footer>
+
+    <div class="main">
+        <div class="googleLogo">
+            <img id="googleLogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+        </div>
+
+        <div class="searchbar">
+            <form action="">
+                <input type="text" name="search">
+            </form>
+            <img src="http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="google voice search microphone">
+        </div>
+
+        <div class="twoButtons">
+            <a href="https://www.google.com/"><button type="button">Google Search</button></a>
+            <a href="https://www.google.com/"><button type="button">I'm Feeling Lucky</button></a>
+        </div>
+    </div>
+    <div id="blackHistory">
+        <a href="https://www.google.com/url?q=https://artsandculture.google.com/project/black-history-and-culture%3Futm_source%3Dgoogle%26utm_medium%3Dhppromo%26utm_campaign%3Dbhm&source=hpp&id=19010866&ct=3&usg=AFQjCNFkXfyEE0DI9Zz1wNZ30Mki9PQ5yw&sa=X&ved=0ahUKEwj237mQkb_gAhVHNd8KHUP3DdkQ8IcBCAk">Discover stories of Black history through dance on Google Arts & Culture</a>
+    </div>
+
+    <div class="footer">
+        <div class="bottom">
+            <div class="leftFooter">
+                <a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000010-0000000001&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+                <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a>
+            </div>
+
+            <div class="rightFooter">
+                <a href="https://policies.google.com/privacy?hl=en&gl=us">Privacy</a>
+                <a href="https://policies.google.com/terms?hl=en&gl=us">Terms</a>
+                <a href="">Settings</a>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

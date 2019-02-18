@@ -1,0 +1,193 @@
+nav {
+    display: inline;
+}
+
+.leftNav,
+.rightNav,
+.leftFooter,
+.rightFooter {
+    display: inline-block;
+    color: #fff;
+    padding: 8px 18px;
+    text-decoration: none;
+    height: 24px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.leftNav {
+    float: left;
+}
+
+.rightNav {
+    float: right;
+}
+
+.leftNav a {
+    padding: 0px 7px;
+    vertical-align: -webkit-baseline-middle;
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    color: #333333;
+}
+
+.rightNav a {
+    padding: 0px 7px;
+    vertical-align: -webkit-baseline-middle;
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    color: #333333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.rightNav button {
+    background-color: #4285f4;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    line-height: 28px;
+    padding-left: 12px;
+    padding-right: 12px;
+    vertical-align: -webkit-baseline-middle;
+    margin-left: 5px;
+    margin-bottom: 7px;
+}
+
+.rightNav img {
+    vertical-align: -webkit-baseline-middle;
+    max-height: 80%;
+    max-width: 100%;
+    opacity: .95;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.main {
+    margin: auto;
+    padding-top: 82px;
+    text-align: center;
+    width: 100%;
+}
+
+.googleLogo {
+    margin: auto;
+    padding-top: 109px;
+    padding-bottom: 20px;
+}
+
+.searchbar {
+    position: relative;
+    margin: auto;
+    width: 580px;
+    height: 40px;
+    box-shadow: 1px 1px 5px 1px rgb(200, 200, 200, 0.85);
+    padding-top: 10px;
+    border-radius: 2px;
+}
+
+.searchbar img {
+    position: absolute;
+    width: 23px;
+    top: 30%;
+    right: 3%;
+}
+
+.searchbar input {
+    display: block;
+    width: 90%;
+    height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+    border: none;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+.twoButtons {
+    padding-top: 28px;
+}
+
+.twoButtons button {
+    color: #6b6666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    height: 36px;
+    padding: 0px 16px;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    margin: 4px;
+}
+
+.twoButtons button:hover {
+    border: 1px solid #c8c8c8;
+    border-radius: 2px;
+}
+
+#blackHistory {
+    text-align: center;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#blackHistory a {
+    text-decoration: none;
+}
+
+#blackHistory a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.leftFooter {
+    position: relative;
+    padding-left: 0px;
+    bottom: 10px;
+}
+
+.rightFooter {
+    float: right;
+    position: relative;
+    right: 25px;
+    bottom: 10px;
+}
+
+.leftFooter a,
+.rightFooter a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 40px;
+    padding-left: 27px;
+    color: #6b6666
+}
+
+.bottom {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+.leftFooter a:hover,
+.rightFooter a:hover {
+    text-decoration: underline;
+}
